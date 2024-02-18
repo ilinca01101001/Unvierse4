@@ -1,0 +1,351 @@
+body {
+    background-image: url('https://cdn.wallpapersafari.com/15/70/T42fjF.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    filter: blur(2px); /* Adjust the blur radius as needed */
+    z-index: -1; /* Ensure the blurred background stays behind content */
+
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Shorthand for margin-left: auto; margin-right: auto; */
+    flex-wrap: wrap; /* Allows items to wrap onto the next row */
+}
+
+
+
+    .gallery img {
+        margin: 10px; /* Add margin around images for spacing */
+
+
+
+    }
+
+
+/* Common styles for both media queries */
+.video-and-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.custom-line {
+        border-top: 3px solid white;
+    }
+
+.trailer,
+.team {
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+.team{
+  background-image: url("https://e0.pxfuel.com/wallpapers/440/807/desktop-wallpaper-purple-galaxy-dark-purple-galaxy.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 7px white dotted;
+
+
+}
+
+li{
+list-style-type: none;
+}
+
+
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+a {
+    color: #009FFA;
+    font-size: 30px;
+}
+
+/* Styles for mobile-specific */
+@media only screen and (max-width: 768px) {
+
+.ad{
+display: none;
+}
+ .container {
+        flex-direction: column;
+    }
+
+   .gallery img {
+        width: 350px;
+        height: 350px;
+
+    }
+
+
+
+    .content {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .trailer,
+    .team {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .trailer iframe {
+        width: 350px;
+        height: 350px;
+
+
+    }
+
+    .line {
+        width: 15% ;
+        height: 5px;
+        background-color: white;
+        margin: 10px;
+    }
+
+    .menu ul li {
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
+    .menu {
+display: none;
+position: absolute;
+top: 60px;
+left: 0px;
+background-color: black;
+width: 200px;
+}
+
+
+
+.menu ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+    .menu-show {
+        display: block !important;
+    }
+
+
+    a{
+  top: 20px;
+  font-size:30px
+}
+
+
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 769px) {
+
+
+
+.ad{
+background-color: #572E97 ;
+border: white solid;
+margin-left: 150px;
+margin-right:50px;
+height:150px;
+color: white;
+text-align: center;
+padding-top: 80px;
+
+}
+
+
+    .content > div {
+        clear: both;
+        margin-bottom: 20px;
+    }
+
+
+
+
+.menu-hitbox:hover .line {
+    background-color: #D8D7D7;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+a:hover{
+color: #007DC4;
+}
+
+    .line {
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        margin: 10px auto;
+    }
+
+    .line:hover {
+    background-color: #D8D7D7;
+}
+
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: black;
+        width: 300px;
+    }
+
+    .menu ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+    .menu ul li a :hover {
+    color: #D8D7D7
+    }
+
+
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        margin-left: 100px;
+    }
+
+    .content h2 {
+        color: white;
+    }
+
+    .content p {
+        color: white;
+    }
+
+    .menu-show {
+        display: block !important;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 60px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+
+
+    .gallery img {
+        width: 400px;
+        height: 400px;
+        margin: 10px; /* Add margin around images for spacing */
+
+
+
+    }
+
+    .video-and-team-container > div {
+        margin-right: 50px;
+        justify-content: space-between; /* Distribute items evenly with space between them */
+
+    }
+
+
+
+    #home {
+        display: block;
+    }
+
+
+    .menu-hitbox {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .trailer iframe {
+        width: 900px;
+        height: 600px;
+    }
+    a{
+    color:#009FFA;
+    top: 20px;
+    font-size:50px
+
+}
+
+}

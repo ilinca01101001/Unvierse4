@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="menu-hitbox" onclick="toggleMenu()">
+        <div class="menu-toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+  </div>
+<nav class="menu">
+    <ul>
+        <li><a href="#home" onclick="showPage('home')"><h4>Home</h4></a></li>
+        <li>
+            <a href="#celestial bodies" onclick="toggleSubmenu()"><h4>Celestial bodies</h4></a>
+            <ul id="submenu" class="submenu" style="display: none;">
+                <li><a href="#BackHole" onclick="showPage('Back Holes')"><h5>Back Holes</h5></a></li>
+                <li><a href="#Exoplanets" onclick="showPage('Exoplanets')"><h5>Exoplanets</h5></a></li>
+                <li><a href="#Galaxies"onclick="showPage('Galaxies')"><h5>Galaxies</h5></a></li>
+                <li><a href="#Neutron Stars"onclick="showPage('Neutron Stars')"><h5>Neutron Stars</h5></a></li>
+                <li><a href="#CMB"onclick="showPage('CMD')"><h5>CMD</h5></a></li>
+                <li><a href="#darkMatter"onclick="showPage('Dark matter')"><h5>Dark matter</h5></a></li>
+            </ul>
+        </li>
+        <li><a href="#galleryFULL" onclick="showPage('galleryFULL')"><h4>Gallery</h4></a></li>
+    </ul>
+</nav>
+
+<div class="ad">
+    <h3>Advertisment</h3>
+    </div>
+<div class="content" id="home">
+    <div>
+        <h2>Beyond the Stars: Unraveling the Mysteries of the Universe</h2>
+        </br>
+        <h3>Are you eager to delve into the mysteries of the universe, uncovering fascinating facts you've never encountered before? Do you yearn to witness extraordinary images capturing the infinite darkness—or so it's often described—of the cosmos above us? Look no further. Welcome to a journey where curiosity knows no bounds, where the secrets of the cosmos await your discovery.   </h3>
+<div class="video-and-team-container">
+    <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EL2XOIVzvlU?si=sKGCM_gN6ciBSOuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="team" id="Team">
+        <h2>What you can expect:</h2>
+        <ul>
+            <li><h3>- New interesting facts</h3></li>
+            <li><h3>- 4k pictures</h3></li>
+            <li><h3>- Perfect descriptions of astronomical objects</h3></li>
+            <li><h3>- Video with awesome soundtracks</h3></li>
+            <li><h3>- Summarized texts</h3></li>
+            <li><h3>- Trustworthy links</h3></li>
+            <li><h3>- Social media links</h3></li>
+        </ul>
+    </div>
+</div>
+        <hr  class="custom-line">
+        <h2>Join our journey!</h2>
+            <h3>Join us as we explore the wonders of the universe, offering fresh insights and captivating visuals that will leave you in awe of the vastness and beauty that lies beyond our earthly realm.</h3>
+        <h2>Social media (definitely legit):</h2>
+        <h2><a href="https://www.youtube.com/@NASA" target="_blank">YouTube 📹</a></br></h2>
+        <h2><a href="https://www.tiktok.com/tag/nasa?lang=en"target="_blank">TikTok 🤳</a><br></h2>
+        <h2><a href="https://www.instagram.com/nasa/?hl=en"target="_blank">Insta 📸</a><br></h2>
+        <h2><a href="https://www.nasa.gov/" target="_blank">Offical Website ⭐</a></h2>
+        </br>
+        <h3>Email address for buisness/ideas/requests/donations ✉️:</h3>
+        <h3>instantuniverse595@gmail.com</h3>
+        <h3>BTW: These are just some random nasa links</h3>
+         <hr  class="custom-line">
+    </div>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+
+        </br>
+        <img src="https://yt3.ggpht.com/y34n2BBoquc29BBxsyDAp1Edc8sDMjmkwv4_OfWTqfa-pr6FchysgiaUBOXlaydCC99hZ0i_U_zg=s800-c-fcrop64=1,06550000f9aaffff-nd-v1" alt="Black hole">
+        <img src="https://images.unsplash.com/photo-1608178398319-48f814d0750c?q=80&w=2406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pink galaxy">
+        <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Galaxy">
+        <img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=2602&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Moon">
+        <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Astronaut">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="REarth">
+
+    </div>
+     <h3>Every photo is from <a href="https://unsplash.com/de" target="_blank"> Unsplash </a>. </h3>
+
+
+
+</div>
+</div>
+
+<div class="content" id="galleryFULL" style="display:none;" >
+    <h2>Gallery</h2>
+    </br>
+    <div class="gallery">
+        <img src="https://yt3.ggpht.com/y34n2BBoquc29BBxsyDAp1Edc8sDMjmkwv4_OfWTqfa-pr6FchysgiaUBOXlaydCC99hZ0i_U_zg=s800-c-fcrop64=1,06550000f9aaffff-nd-v1" alt="Black hole">
+        <img src="https://images.unsplash.com/photo-1608178398319-48f814d0750c?q=80&w=2406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pink galaxy">
+        <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Galaxy">
+        <img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=2602&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Moon">
+        <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Astronaut">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="REarth">
+        <img src="https://images.unsplash.com/photo-1627556592933-ffe99c1cd9eb?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Saturn">
+        <img src="https://images.unsplash.com/photo-1546497974-b213c9efb599?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="starssss">
+    <h3>Every photo is from <a href="https://unsplash.com/de" target="_blank"> Unsplash </a>. </h3>
+    </div>
+
+</div>
+</body>
+</html>
